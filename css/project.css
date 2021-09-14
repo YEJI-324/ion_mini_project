@@ -1,0 +1,81 @@
+/* COMMON */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+    background-color: bisque;
+}
+/* 
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.hidden_achor {
+    visibility: hidden;
+} */
+
+/* INNER */
+.inner {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background-color: #F6F5F0;
+}
+
+header .inner {
+    height: 50px;
+}
+
+header .logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+/* SECTION */
+section {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+section .inner {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* PROJECT-LIST */
+.project {
+    
+}
+
+.project .inner {
+    background-color: cornflowerblue;
+    border: black solid 1px;
+}
+
+.project div.item{
+    display: inline;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: coral;
+    border: black solid 1px;
+}
+
+.project div.item:hover {
+    scale: 1.2;
+}
